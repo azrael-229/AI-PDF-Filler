@@ -12,7 +12,8 @@ packages = [
     'Pillow',
     'transformers',
     'torch',
-    'setuptools'  # Adding setuptools which includes pkg_resources
+    'setuptools',  # Adding setuptools which includes pkg_resources
+    'requests'     # Added for AI provider API calls
 ]
 
 print("Installing required packages...")
